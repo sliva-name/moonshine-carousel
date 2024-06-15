@@ -1,23 +1,25 @@
 {
-    "name": "moonshine/moonshine-carousel",
-    "description": "add custom slider",
+    "name": "webmatherfacker/moonshine-carousel",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Moonshine\\MoonshineCarousel\\": "src/"
+            "Webmatherfacker\\MoonshineCarousel\\": "src/"
         }
     },
-  "conflict": {
-    "moonshine/moonshine": "<2.0"
-  },
     "authors": [
         {
             "name": "ghost"
         }
     ],
+  "conflict": {
+    "moonshine/moonshine": "<2.0"
+  },
+  "scripts": {
+  },
   "extra": {
     "laravel": {
       "providers": [
-        "Moonshine\\MoonshineCarousel\\MoonshineCarouselServiceProvider"
+        "Webmatherfacker\\MoonshineCarousel\\Providers\\MoonshineCarouselServiceProvider"
       ]
     }
   },

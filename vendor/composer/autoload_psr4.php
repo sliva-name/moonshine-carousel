@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Moonshine\\MoonshineCarousel\\' => array($baseDir . '/src'),
+    'Webmatherfacker\\MoonshineCarousel\\' => array($baseDir . '/src'),
 );
