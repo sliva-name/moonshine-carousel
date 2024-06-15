@@ -77,4 +77,4 @@ Slider::make()->addItems(...)->nav(),
 
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
 [ico-laravel]: https://img.shields.io/badge/Laravel-10+-FF2D20?style=for-the-badge&logo=laravel
-[ico-php]: https://img.shields.io/badge/PHP-8.1+-777BB4?style=for-the-badge&logo=php
+[ico-php]: https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php
