@@ -1,16 +1,16 @@
 {
-    "name": "webmatherfacker/moonshine-carousel",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Webmatherfacker\\MoonshineCarousel\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "ghost"
-        }
-    ],
+  "name": "webmatherfacker/moonshine-carousel",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Webmatherfacker\\MoonshineCarousel\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "ghost"
+    }
+  ],
   "conflict": {
     "moonshine/moonshine": "<2.0"
   },
@@ -24,5 +24,7 @@
     }
   },
   "minimum-stability": "dev",
-    "require": {}
+  "require": {
+    "moonshine/moonshine": "^2.0"
+  }
 }
