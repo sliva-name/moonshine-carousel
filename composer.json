@@ -14,5 +14,12 @@
             "name": "ghost"
         }
     ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Moonshine\\MoonshineCarousel\\MoonshineCarouselServiceProvider"
+      ]
+    }
+  },
     "require": {}
 }
