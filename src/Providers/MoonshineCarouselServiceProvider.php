@@ -20,8 +20,8 @@ final class MoonshineCarouselServiceProvider extends ServiceProvider
 
 
         moonshineAssets()->add([
-            '/vendor/webmatherfacker/moonshine-carousel/css/main.css',
-            '/vendor/webmatherfacker/moonshine-carousel/js/app.js',
+            '/vendor/webmatherfacker/moonshine-carousel/css/own-carousel.min.css',
+            '/vendor/webmatherfacker/moonshine-carousel/js/own-carousel.min.js',
         ]);
 
     }
