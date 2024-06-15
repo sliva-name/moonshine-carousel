@@ -24,10 +24,5 @@ final class MoonshineCarouselServiceProvider extends ServiceProvider
             '/vendor/moonshine-carousel/js/app.js',
         ]);
 
-        moonshine()
-            ->resources([
-                new Slider(),
-            ]);
-
     }
 }
