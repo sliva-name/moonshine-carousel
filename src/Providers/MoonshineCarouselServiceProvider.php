@@ -15,13 +15,13 @@ final class MoonshineCarouselServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'slider');
 
         $this->publishes([
-            __DIR__ . '/../../public' => public_path('vendor/moonshine-carousel'),
+            __DIR__ . '/../../public' => public_path('vendor/webmatherfacker/moonshine-carousel'),
         ], ['moonshine-carousel', 'laravel-assets']);
 
 
         moonshineAssets()->add([
-            '/vendor/moonshine-carousel/css/main.css',
-            '/vendor/moonshine-carousel/js/app.js',
+            '/vendor/webmatherfacker/moonshine-carousel/css/main.css',
+            '/vendor/webmatherfacker/moonshine-carousel/js/app.js',
         ]);
 
     }
