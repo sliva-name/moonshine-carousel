@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Moonshine\MoonshineCarousel\Providers;
+namespace Webmatherfacker\MoonshineCarousel\Providers;
 
-use Moonshine\MoonshineCarousel\Components\Slider;
+use Webmatherfacker\MoonshineCarousel\Components\Slider;
 
 use Illuminate\Support\ServiceProvider;
 final class MoonshineCarouselServiceProvider extends ServiceProvider

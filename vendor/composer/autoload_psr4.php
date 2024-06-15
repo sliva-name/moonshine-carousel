@@ -20,7 +20,7 @@ return array(
     'MoonShine\\Database\\Factories\\' => array($vendorDir . '/moonshine/moonshine/database/factories'),
     'MoonShine\\' => array($vendorDir . '/moonshine/moonshine/src'),
     'Leeto\\PackageCommand\\' => array($vendorDir . '/lee-to/laravel-package-command/src'),
-    'Illuminate\\Support\\' => array($vendorDir . '/illuminate/macroable', $vendorDir . '/illuminate/conditionable', $vendorDir . '/illuminate/collections', $vendorDir . '/illuminate/support'),
+    'Illuminate\\Support\\' => array($vendorDir . '/illuminate/collections', $vendorDir . '/illuminate/conditionable', $vendorDir . '/illuminate/macroable', $vendorDir . '/illuminate/support'),
     'Illuminate\\Contracts\\' => array($vendorDir . '/illuminate/contracts'),
     'Doctrine\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Inflector'),
     'Carbon\\Doctrine\\' => array($vendorDir . '/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine'),

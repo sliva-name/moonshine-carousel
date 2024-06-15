@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Moonshine\MoonshineCarousel\Components;
+namespace Webmatherfacker\MoonshineCarousel\Components;
 
 use Closure;
 use MoonShine\Components\MoonShineComponent;
@@ -12,7 +12,7 @@ use MoonShine\Components\MoonShineComponent;
  */
 final class Slider extends MoonShineComponent
 {
-    protected string $view = 'components.slider';
+    protected string $view = 'slider::components.slider';
     protected array $items = [];
     protected int $itemPerRow = 3;
     protected int $itemWidth = 20;

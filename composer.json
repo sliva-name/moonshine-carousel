@@ -25,6 +25,6 @@
   },
   "minimum-stability": "dev",
   "require": {
-    "moonshine/moonshine": "^2.0"
+    "moonshine/moonshine": "2.*"
   }
 }
