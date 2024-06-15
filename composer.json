@@ -24,7 +24,5 @@
     }
   },
   "minimum-stability": "dev",
-  "require": {
-    "moonshine/moonshine": "2.*"
-  }
+  "require": {}
 }
