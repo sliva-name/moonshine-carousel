@@ -10,7 +10,7 @@
     <div class="own-carousel__outer">
         <div class="own-carousel">
             @foreach($items as $item)
-                @continue(!isSeeWhenExists($item))
+                @continue(!isset($item))
                 <div class="own-carousel__item">{{ $item->render() }}</div>
             @endforeach
         </div>

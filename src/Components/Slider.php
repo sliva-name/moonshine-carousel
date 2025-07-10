@@ -5,7 +5,9 @@ declare(strict_types=1);
 namespace Webmatherfacker\MoonshineCarousel\Components;
 
 use Closure;
-use MoonShine\Components\MoonShineComponent;
+use MoonShine\AssetManager\Css;
+use MoonShine\AssetManager\Js;
+use MoonShine\UI\Components\MoonShineComponent;
 
 /**
  * @method static static make()
@@ -20,14 +22,13 @@ final class Slider extends MoonShineComponent
     protected int $autoplay = 1;
 
     protected bool $navigation = false;
-    protected array $assets = [
-        '/css/own-carousel.min.css',
-        '/js/own-carousel.min.js',
-    ];
+
 
     public function __construct(
 
-    ) {}
+    ) {
+        parent::__construct();
+    }
 
     public function addItems($items): self
     {
